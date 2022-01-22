@@ -1,0 +1,9 @@
+spring:
+  config:
+    import: 'configserver:'
+  cloud:
+    config:
+      discovery:
+        serviceId: ead-api-gateway
+      username: configserver
+      password: 'ead123cr'
