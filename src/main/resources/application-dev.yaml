@@ -4,6 +4,6 @@ spring:
   cloud:
     config:
       discovery:
-        serviceId: ead-api-gateway
+        serviceId: ead-config-server
       username: configserver
       password: 'ead123cr'
